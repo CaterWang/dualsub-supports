@@ -1,4 +1,55 @@
 DualSub
 =======
 
-TODO
+[简体中文](./README.zh-CN.md)
+
+DualSub is an extension to make YouTube player display two subtitles in the same time.
+
+*Note: This repository only for document and issue trakcer, project itself is not open source.*
+
+| Screenshot |
+| :--------: |
+| <img src="https://raw.githubusercontent.com/muzuiget/dualsub-supports/master/images/main.png" /> |
+
+| Select Language | Auto Translate |
+| :-------------: | :------------: |
+| <img src="https://raw.githubusercontent.com/muzuiget/dualsub-supports/master/images/language.png" /> | <img src="https://raw.githubusercontent.com/muzuiget/dualsub-supports/master/images/translate.png" /> |
+
+Features
+--------
+
+* Render as native
+
+The second subtitle will be inserted to the original subtitle as a new line, and set font size a bit smaller.
+
+* Any subtitle source
+
+You can choose any subtitle source from the player, or use "auto translate" to translate it to another any language.
+
+* Optimized merge algorithm
+
+Two subtitles never overlay each other, even they have difference time positions.
+
+Install
+-------
+
+Currently the only way to extension is "Developer Mode", download the zip file in [Release Page](https://github.com/muzuiget/dualsub-supports/releases).
+
+[Why not publish on Chrome Store?](https://github.com/muzuiget/dualsub-supports/issues/2)
+
+Usage
+-----
+
+First, you need to switch to YouTube New Look, if you still are not enabled, goto https://www.youtube.com/new to enable it.
+
+After install the extension, at video page, a DualSub toolbar will show on the right of the "view count" title. The DualSub toolbar only control the second subtitle. The subtitles display or not still control by the player toolbar.
+
+The are two drop-down menus on DualSub toolbar.
+
+* left one: select source language, includes "auto-generated" subtitle.
+* right one: use YouTube bulit-in "auto translate" to translate the source language.
+
+Troubleshooting
+---------------
+
+If you jump to another video page, but find out the DualSub toolbar not showing, try to press `<F5>` to reload the page. Because YouTube not doing a really reload, it is hard to trace the video page had changed.
