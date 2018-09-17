@@ -5,7 +5,7 @@ DualSub
 
 DualSub is an extension to make YouTube player display two subtitles in the same time.
 
-*Note: This repository only for document and issue trakcer, project itself is not open source.*
+*Note: This project is not open source, this repository only for document and issue trakcer*
 
 | Screenshot |
 | :--------: |
@@ -33,9 +33,7 @@ Two subtitles never overlay each other, even they have difference time positions
 Install
 -------
 
-Currently the only way to extension is "Developer Mode", download the zip file in [Release Page](https://github.com/muzuiget/dualsub-supports/releases).
-
-[Why not publish on Chrome Store?](https://github.com/muzuiget/dualsub-supports/issues/2)
+Install from [Chrome Store](https://chrome.google.com/webstore/detail/dualsub/gnlibmlfpencglodjpgnalbdebfhpmfp)
 
 Usage
 -----
@@ -53,3 +51,9 @@ Troubleshooting
 ---------------
 
 If you jump to another video page, but find out the DualSub toolbar not showing, try to press `<F5>` to reload the page. Because YouTube not doing a really reload, it is hard to trace the video page had changed.
+
+TODO
+----
+
+* custom the font style
+* swap two subtitle positions

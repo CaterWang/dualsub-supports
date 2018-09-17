@@ -3,7 +3,7 @@ DualSub
 
 DuaSub 是一个 Chrome 浏览器扩展，让 YouTube 播放器实现双语字幕。
 
-*注意：本仓库只是作为文档和支持系统，项目不是开源的。*
+*注意：项目不是开源的，本仓库只是作为文档和支持系统*
 
 | 效果截图 |
 | :------: |
@@ -31,9 +31,7 @@ DuaSub 是一个 Chrome 浏览器扩展，让 YouTube 播放器实现双语字�
 安装
 ----
 
-目前只能以 Chrome 开发者模式安装使用，从 [Release](https://github.com/muzuiget/dualsub-supports/releases) 页面下载 zip 文件。
-
-[为什么不在 Chrome 商店发布？](https://github.com/muzuiget/dualsub-supports/issues/1)
+通过 [Chrome 商店](https://chrome.google.com/webstore/detail/dualsub/gnlibmlfpencglodjpgnalbdebfhpmfp) 安装
 
 使用方法
 --------
@@ -52,3 +50,9 @@ DuaSub 是一个 Chrome 浏览器扩展，让 YouTube 播放器实现双语字�
 ## 常见问题
 
 因为 YouTube 的新界面用了黑科技，页面跳转不需真的刷新页面，例如从搜索结果页跳到视频页，即使地址栏地址变了，但是页面还是没刷新的，有时候扩展未能检测出页面变动，读取不了新视频的字幕信息，需要你手动按 `<F5>` 实际刷新一下。
+
+TODO
+----
+
+* 自定义字幕样式
+* 交换两种字幕的位置
