@@ -1,7 +1,9 @@
-DualSub
+Dualsub
 =======
 
-DuaSub 是一个 Chrome 浏览器扩展，让 YouTube 播放器实现双语字幕。
+[English](./README.md)
+
+Dualsub 是一个 Chrome 浏览器扩展，让 YouTube 播放器实现双语字幕。
 
 *注意：项目不是开源的，本仓库只是作为文档和支持系统*
 
